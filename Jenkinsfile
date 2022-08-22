@@ -32,7 +32,7 @@ pipeline{
     
       steps{
         echo 'Deploying the application...'
-        sh 'python3 helloworld.py'
+        sh 'python3 test.py'
       }
     }
   
